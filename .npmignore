@@ -5,6 +5,7 @@
 coverage
 node_modules
 .gitignore
+.editorconfig
 /.babelrc.js
 /src
 /.cache
