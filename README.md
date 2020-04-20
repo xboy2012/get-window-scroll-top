@@ -43,6 +43,6 @@ It seems that it's just one line to get window's scroll top. However, the outcom
 
 To overcome the above details, we invent this module.
 
-We use feature detect including edge cases, once the code find a way to access the `scrollTop` value properly, future call to the function will `JUST INVOKE THE EXTACT IMPLEMENT` without any unnecessary checks. In this way, we gain the best performance as possible.
+We use feature detect including edge cases, once the code find a way to access the `scrollTop` value properly, future call to the function will **`JUST INVOKE THE EXTACT IMPLEMENT`** without any unnecessary checks. In this way, we gain the best performance as possible.
 
 The source code might seem a little longer, but after `treeshaking`/`uglify`, it's nothing to worry about, just several bytes increment.
