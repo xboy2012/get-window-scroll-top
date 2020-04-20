@@ -1,0 +1,35 @@
+{
+  "name": "get-window-scroll-top",
+  "version": "1.0.0",
+  "description": "get window's scroll top cross browser",
+  "main": "commonjs/es5/index.js",
+  "module": "module/es7/index.js",
+  "jsnext:main": "module/es7/index.js",
+  "scripts": {
+    "build": "babel-node src/build/index.js",
+    "prepublish": "npm run build"
+  },
+  "keywords": [
+    "window",
+    "scrolltop",
+    "browser"
+  ],
+  "devDependencies": {
+    "@babel/cli": "^7.1.5",
+    "@babel/core": "^7.1.6",
+    "@babel/node": "^7.0.0",
+    "@babel/preset-env": "^7.1.6",
+    "rollup": "^2.6.1",
+    "rollup-plugin-babel": "^4.0.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xboy2012/get-window-scroll-top.git"
+  },
+  "author": "xboy2012",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xboy2012/get-window-scroll-top/issues"
+  },
+  "homepage": "https://github.com/xboy2012/get-window-scroll-top#readme"
+}
